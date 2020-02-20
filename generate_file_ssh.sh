@@ -7,7 +7,7 @@ read -p " Veuillez précisez le chemin destination de votre fichier :" destinati
 
 # Met en mémoire le fichier a traité + le chemin dans lequel vous voulez le déplacer
 
-#trap echo Control-C ne peut plus etre utilise" 2
+trap echo "Control-C ne peut plus etre utilise" 2
 
 # Bloque le signal SIGINT donc l'input Ctrl C devient inutilisable
 
