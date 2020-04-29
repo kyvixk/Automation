@@ -12,13 +12,13 @@ sudo pwd
 
 echo "Récupération du repo"
 
-sudo git clone https://gitlab-ops.ip-label.net/ydo/guaca.git
+sudo git clone https://github.com/kyvixk/Automation.git
 
 echo "le repos a été téléchargé"
 
 echo "Téléchargement de docker et docker compose"
 
-cd guaca/
+cd Automation/
 sudo tar -xzvf guacamole.tar.gz
 cd guacamole-docker-compose/
 sudo service docker start && sudo systemctl enable docker
