@@ -12,7 +12,7 @@ sudo pwd
 
 echo "Récupération du repo"
 
-sudo git clone http://gitlab-ops.ip-label.net/ydo/guaca.git
+sudo git clone https://gitlab-ops.ip-label.net/ydo/guaca.git
 
 echo "le repos a été téléchargé"
 
